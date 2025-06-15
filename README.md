@@ -1,31 +1,49 @@
-# Stamatics_230130
-# Zomato Dataset Analysis Project
+# Zomato Analysis & Bulldozer Price Prediction
 
 ## Overview
-This mini-assignment focuses on cleaning and analyzing the Zomato dataset using Python tools like pandas and matplotlib.  
-The goal was to prepare the data, explore it, and generate some insights about different cuisines based on ratings, votes, and cost.
+This repository contains two projects I completed as part of my coursework:
+- **Zomato Mini-Assignment:** Focused on cleaning and analyzing restaurant data from the Zomato dataset.
+- **Bulldozer Price Prediction:** Built a machine learning model to estimate bulldozer sale prices at auctions.
 
-## What I did
-- Loaded the dataset and examined its structure
-- Dealt with missing values by filling or replacing with appropriate values
-- Removed duplicate records
-- Cleaned and standardized important columns, including ratings, price, and cuisine
-- Grouped data by cuisine to compute averages and totals (e.g. average rating, total votes)
-- Created visualizations to show top cuisines by rating and popularity
+Both projects helped me practice data cleaning, feature engineering, and predictive modeling using Python.
 
-## Files included
-- `zomato_analysis.ipynb` → The Google Colab notebook with all the code and steps
-- `cleaned_zomato.csv` → Final cleaned version of the dataset
-- `cuisine_summary.csv` → Summary file with grouped stats for cuisines
-- `README.md` → This file with a summary of the work
+---
 
-## Insights
-The analysis highlighted:
-- Which cuisines have the highest ratings on average
-- The cuisines that are most popular based on votes
-- How cost varies across different types of cuisines
+## Zomato Mini-Assignment
+In this task:
+- I explored the dataset, handled missing values, and standardized key columns.
+- Extracted the primary cuisine for each restaurant.
+- Grouped the data by cuisine to calculate average ratings, total votes, and average cost.
+- Created simple visualizations to show top cuisines by rating and by popularity.
 
-## Tools used
-- Python (pandas, numpy, matplotlib)
+### Files
+- `zomato_analysis.ipynb`: Notebook containing the full code and steps.
+- `cleaned_zomato.csv`: Cleaned version of the dataset.
+- `cuisine_summary.csv`: Grouped summary by cuisine.
+
+---
+
+## Bulldozer Price Prediction
+In this project:
+- I cleaned the data and handled missing values and incorrect types.
+- Converted the sale date to datetime and extracted useful features (year, month, day).
+- Encoded categorical columns.
+- Trained a Random Forest Regressor model.
+- Achieved a validation RMSLE of **0.2154** on my split of the data.
+- Generated predictions on the test data in the required format.
+
+### Files
+- `bulldozer_prediction.ipynb`: Notebook with code and explanation.
+- `test_predictions.csv`: Predictions generated for the test set.
+
+---
+
+## Tools Used
+- Python (pandas, numpy, matplotlib, scikit-learn)
 - Google Colab
 - GitHub
+
+---
+
+## Notes
+These projects were done as part of my learning. All work is original and focused on applying data science techniques to real datasets.
