@@ -16,6 +16,11 @@
 - Train Accuracy: 83%
 - Validation Accuracy: ~0.5% (due to small data subset)
 - Submission Format: Multi-class probabilities over 120 breeds
+- 
+## 💾 How to Load Model
+
+Download model from:  
+🔗 [cnn_model.h5 (Google Drive)]([https://drive.google.com/uc?id=1a2B3cD4eFgHiJKlmNOPqrstu](https://drive.google.com/file/d/1I67-fDfzIGBcrrybIOYC-FC9C2l9XkJp/view?usp=sharing))
 
 ## How to Load Model
 
